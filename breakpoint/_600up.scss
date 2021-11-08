@@ -1,0 +1,42 @@
+// ***********************************
+
+// タブレット
+
+// ***********************************
+
+.feature {
+
+  &__contents {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__article {
+    width: 49%;
+  }
+}
+
+.contact {
+
+  &__inner {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+  }
+
+  &__texts {
+    width: 47%;
+  }
+
+  &__form {
+    width: 47%;
+
+    &__submit {
+      width: 180px;
+    }
+  }
+
+
+}

@@ -1,0 +1,11 @@
+@import 'styles/variables';
+@import 'breakpoint/base';
+
+
+@media screen and (min-width: 600px) {
+  @import 'breakpoint/600up';
+}
+
+@media screen and (min-width: 984px) {
+  @import 'breakpoint/984up';
+}
